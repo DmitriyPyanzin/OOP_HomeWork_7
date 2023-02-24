@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class ParametrException {
+public class ParametrException extends Exception {
+
+    public ParametrException(String message) {
+        super(message);
+
+    }
 }

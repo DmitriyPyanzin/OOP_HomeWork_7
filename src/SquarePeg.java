@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface SquarePeg {
+public interface SquarePeg {
+
+    double side();
+
 }
